@@ -9,7 +9,7 @@
  * seen is actually just 16 bytes
  */
 fbt::randomdev_hash_iterate:entry {
-	printf("%d", arg1);
-	tracemem(arg0, 580);
+	printf("%d", arg2);
+	tracemem(arg1, 580);
 }
 
